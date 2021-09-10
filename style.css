@@ -1,0 +1,81 @@
+@font-face {
+    font-family: BlackRose;
+    /* src: url('PirataOne-Regular.ttf'); */
+    src:url('Viking.ttf');
+}
+@font-face {
+    font-family: montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+}
+#header{
+   background-color:black ; 
+   height: 100px;
+   font-family: BlackRose;
+   font-size: larger;
+   font-display: center;
+   text-align: center;
+   font-size: 60px;
+   color: aliceblue;
+   margin:0%;
+   background-position: center;
+   background-image: url(https://image.shutterstock.com/image-illustration/old-black-background-distressed-vintage-260nw-1607779117.jpg);
+
+/* background-size: 100% 100%; */
+}
+
+body{
+    /* background-image: url(https://images.unsplash.com/photo-1590880449155-b54f958ce314?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=715&q=80); */
+    /* background-position: center; */
+   background-image:  url("pirates.jpg");
+   /* background-image: url(https://content.invisioncic.com/r237714/monthly_2017_04/ship_in_bottle_v2_by_balint4-d59n99q.jpg.3c426acb4692001c84da223a4170716a.jpg); */
+
+   background-size: 100%;
+   background-position:top right;
+   background-repeat: no-repeat;
+   
+    
+}
+
+#top-container{
+    height: 100px;
+   width: 700px;
+   text-align: center ;
+    border: .1rem solid whitesmoke;
+    font-family:  montserrat;
+    color: antiquewhite;
+    font-size: 25px;
+    background: transparent;
+    /* background-image: url(https://images.unsplash.com/photo-1437751059337-ea72d4f73fcf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=742&q=80); */
+    background-size: 100% 100%;
+    margin: 40px 100px auto 400px  ;
+
+    
+}
+#btn-translate{
+    height: 50px;
+    margin: 150px 600px 100px 700px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    color: antiquewhite;
+    background- :transparent;
+    font-size: 16px;
+    padding: 10px 24px;
+    
+}
+
+#bottom-container{
+      border: .1rem solid white;
+      margin: 100px auto ;
+      height: 100px;
+      width: 700px;
+      /* background-image: linear-gradient(45deg,black,#6B7280,black); */
+/* background-image: url(https://images.unsplash.com/photo-1437751059337-ea72d4f73fcf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=742&q=80); */
+      background-size: 100% 100%;
+text-align: center;
+font-size: 25px;
+    position: relative;
+    color: antiquewhite;
+    /* background-repeat: no-repeat; */
+      
+}
