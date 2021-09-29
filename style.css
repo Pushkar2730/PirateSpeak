@@ -53,12 +53,13 @@ body{
 }
 #btn-translate{
     height: 50px;
-    margin: 150px 600px 100px 700px;
+    margin: 150px 600px 100px 650px;
     position: relative;
     cursor: pointer;
     text-align: center;
-    color: antiquewhite;
-    background- :transparent;
+    color:yellow;
+    width: 200px;
+    background :transparent;
     font-size: 16px;
     padding: 10px 24px;
     
